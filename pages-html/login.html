@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Welcome back! Login.</title>
+        <link rel="stylesheet" href="../styles/login.css" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	</head>
+	<body>
+        <header>
+            <nav>
+                <div id="logo-menu">
+                    <div id="logo">
+                        <a href="../pages-html/index.html"><img src="../Images/tsu-logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="support-links">
+                    <ul>
+                        <li><a href="../pages-html/index.html">Home</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><span>|</span></li>
+                        <li><a id="sign-up" href="../pages-html/signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+		<main id="loginCardContainer">
+            <div class="tiger-logo">
+                <img src="../Images/tsutiger.png" alt="">
+            </div>
+			<div id="loginCard">
+				<div id="heading">
+					<h3>Log in</h3>
+					<div id="sectionName">
+                        <h3>Welcome back!</h3>
+                    </div>
+				</div>
+
+                <form action="" method="post">
+                    <div id="contentElements">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" autofocus required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock'></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div id="forgot">
+                            <h6><a href="./forgot.html">Forgot password?</a></h6>
+                        </div>
+                    </div>
+                    <div id="controlledElements">
+                        <button type="submit" role="button">Login</button>
+                    </div>
+                </form>
+			</div>
+            <div id="joinLink">
+				<h6>Want to be a part of a new Community?<a href="../pages-html/signup.html"> Join Us!</a></h6>
+			</div>
+		</main>
+	</body>
+</html>

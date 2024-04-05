@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../Images/tsu-campus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header {
+    background-color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: none;
+
+    width: 100%;
+
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 0;
+
+    z-index: 1001;
+}
+
+.logo-section a {
+    font-family: Easy-Grotesk-Black;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+#logo-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+
+    align-items: center;
+}
+
+#logo a span,
+#logo-dotty {
+    color: #008d95;
+}
+
+#page-name a {
+    color: black;
+    font-family: Wanted-Regular;
+
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+nav ul li a,
+nav ul li span {
+    font-family: Wanted-Regular;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: solid underline 1px;
+}*/

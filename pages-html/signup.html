@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Join Us</title>
+		<link rel="stylesheet" href="../styles/signup.css" />
+		<script src="../scripts/signup.js" defer></script>
+	</head>
+
+	<body>
+		<main id="joinCardContainer">
+            <header>
+                <nav>
+                    <div id="logo-menu">
+                        <div id="logo">
+                            <a href="../pages-html/index.html"><img src="../Images/tsu-logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="support-links">
+                        <ul>
+                            <li><a href="../pages-html/index.html">Home</a></li>
+                            <li><a href="#">Partner</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><span>|</span></li>
+                            <li><a id="sign-up" href="../pages-html/login.html">Log in</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+          
+
+			<div id="joinCard">
+                <div class="tiger-logo">
+                    <img src="../Images/tsutiger.png" alt="">
+                </div>
+                
+				<div id="heading">
+					<h3>Let's Get Started</h3>
+				</div>
+
+				<form action="" method="post">
+					<div id="contentElements" class="section-one">
+						<div id="sectionName">
+							<h2>1. Personal Information</h2>
+						</div>
+						<div id="row">
+							<div id="rowElement">
+								<input
+									type="text"
+									name="first-name"
+									id="first-name"
+									required
+								/>
+								<label for="first-name"
+									>First Name <span>*</span>
+								</label>
+							</div>
+							<div id="rowElement">
+								<input
+									type="text"
+									name="last-name"
+									id="last-name"
+									required
+								/>
+								<label for="last-name"
+									>Last Name <span>*</span></label
+								>
+							</div>
+						</div>
+
+						<div id="row">
+							<div id="rowElement">
+								<input
+									type="email"
+									name="email"
+									id="email"
+									required
+								/>
+								<label for="email"
+									>Email Address <span>*</span></label
+								>
+							</div>
+							<div id="rowElement">
+								<input
+									type="text"
+									name="phone-number"
+									id="phone-number"
+									required
+								/>
+								<label for="phone-number"
+									>Phone Number <span>*</span></label
+								>
+							</div>
+						</div>
+
+						<div id="row">
+							<div id="birthdayRowElement">
+								<div class="input-group">
+									<input
+										type="text"
+										name="year"
+										id="year"
+										required
+									/>
+									<label for="birthday" class="birthday-label"
+										>Birthday <span>*</span></label
+									>
+								</div>
+								<div class="input-group">
+									<input
+										type="text"
+										name="month"
+										id="month"
+										placeholder="Month"
+										required
+									/>
+								</div>
+								<div class="input-group">
+									<input
+										type="text"
+										name="date"
+										id="date"
+										placeholder="Date"
+										required
+									/>
+								</div>
+							</div>
+							<div id="rowElement">
+								<input
+									type="text"
+									name="phone-number"
+									id="phone-number"
+									required
+								/>
+								<label for="phone-number">Gender </label>
+							</div>
+						</div>
+					</div>
+
+					<div id="contentElements" class="section-two">
+                        <div id="sectionName">
+							<h2>2. Account Security</h2>
+						</div>
+						<div id="rowTwo">
+							<div id="rowTwoElement">
+								<input
+									type="password"
+									name="password"
+									id="password"
+									required
+								/>
+								<label for="password"
+									>Password <span>*</span></label
+								>
+							</div>
+							<div id="rowTwoElement">
+								<input
+									type="password"
+									name="confirm-password"
+									id="confirm-password"
+									required
+								/>
+								<label for="confirm-password"
+									>Confirm Password <span>*</span></label
+								>
+							</div>
+						</div>
+					</div>
+
+					<div id="controlledElements">
+						<div role="button" id="returnContainer">
+							<h5>
+								<img
+									src="../Images/return copy.svg"
+									alt=""
+								/>Return
+							</h5>
+						</div>
+
+						<div id="nextContainer">
+							<button role="button" type="button">Next</button>
+							<button
+								role="button"
+								type="submit"
+								style="display: none"
+							>
+								Submit
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div id="signInLink">
+				<h6>Already have an account?<a href="./login.html"> Sign in</a></h6>
+			</div>
+		</main>
+	</body>
+
+	<footer></footer>
+</html>
