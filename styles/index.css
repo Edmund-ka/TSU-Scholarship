@@ -1,112 +1,143 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    min-height: 100vh;
+.header{
+    min-height: 85vh;
     width: 100%;
-    background-image: url(../Images/tsu-campus.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/tsu-campus.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*header {
-    background-color: white;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    flex: none;
-
-    width: 100%;
-
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 0;
-
-    z-index: 1001;
-}
-
-.logo-section a {
-    font-family: Easy-Grotesk-Black;
-    text-decoration: none;
-    color: black;
-    text-transform: capitalize;
-    font-size: 30px;
-}
-
-.logo img {
-    width: 50%;
-}
-
-#logo-menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-
-    align-items: center;
-}
-
-#logo a span,
-#logo-dotty {
-    color: #008d95;
-}
-
-#page-name a {
-    color: black;
-    font-family: Wanted-Regular;
-
-    text-decoration: none;
-}
-
 nav {
     display: flex;
+    padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;
-    align-items: center;
+nav img {
+    width: 150px;
 }
 
-nav ul li a,
-nav ul li span {
-    font-family: Wanted-Regular;
+.nav-items {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-items ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-items ul li a {
+    color: white;
     text-decoration: none;
-    color: black;
     font-size: 16px;
 }
 
-nav ul li a:hover {
-    text-decoration: solid underline 1px;
-}*/
+.nav-items ul li span {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-items ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-items ul li:hover::after {
+    width: 100%;
+}
+
+#text-box {
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#page-header h1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#page-header p {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+  /* Styles for the search box */
+
+
+#search-body {
+    margin-top: 20px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #07070715;
+    border-radius: 15px;
+    cursor: text;
+    -webkit-box-shadow: 2px 3px 21px 4px rgba(0, 0, 0, 0.085);
+    -moz-box-shadow: 2px 3px 21px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 2px 3px 21px 4px rgba(0, 0, 0, 0.061);
+}
+
+.search-container input {
+    width: 50%;
+    height: 100%;
+
+    padding: 15px;
+
+    font-size: 17px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.search-container .home-img {
+    position: absolute;
+    top: 57%;
+    right: 360px;
+    transform: translateY(-50%);
+}
+
+#search-body a button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #00539f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    
+
+
+
